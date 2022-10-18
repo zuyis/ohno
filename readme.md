@@ -1,8 +1,6 @@
 ## Git for BI
 
-
-HI I MADE A CHANGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-JACQ WAS HERE
+Hello, this is my change.
 
 This is an introduction to using Git, additional information can be found by googling.
 The goal is for our team to have a central repository for code and knowledge sharing, especially SQL queries. 
@@ -57,3 +55,5 @@ git branch -M main
 git remote add origin url-to-your-repo
 git push -u origin main
 ```
+
+Just waiting for the merge conflicts.
