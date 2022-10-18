@@ -14,18 +14,32 @@ The goal is for our team to have a central repository for code and knowledge sha
 - pull request must be reviewed by another person before merging
 - always include a readme.md
 
-### big no-no's
-- committing passwords!!!!!!!
+### DO NOT DO THIS
+don't commit any passwords!!!!!!!
 
-### typical commands
-set remote
+### for existing repositories
+start by cloning the repo\
+`git clone existing-repo-url`
 
- `git clone `
+you have the option to create your own branch\
+`git checkout [-b] branchname`\
 
- `git fetch`
+or you can check out an existing branch\
+`git fetch`\
+`git branch -a -v`\
+`git switch remote-branch-name`
 
- `git checkout [-b] branchname`
- 
+if you forget to do either and started making changes off main, you can switch to a different/new branch\
+`git switch -c new-local-branch-name`\
+or\
+`git switch existing-branch-name`
+
+### if you mess up
+reset to the last commit, with your changes\
+`git reset`\
+undo 1 commit\
+`git reset HEAD~1`
+
 ### creating a repository
 1. create a repo on github. select add a `README.md` and `.gitignore` files
 2. follow the code below or what is on github
