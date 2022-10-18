@@ -2,6 +2,8 @@
 
 HI I MADE A CHANGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+GIT IS GREAT
+
 This is an introduction to using Git, additional information can be found by googling.
 The goal is for our team to have a central repository for code and knowledge sharing, especially SQL queries. 
 
