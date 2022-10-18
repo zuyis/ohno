@@ -22,7 +22,7 @@ start by cloning the repo\
 `git clone existing-repo-url`
 
 you have the option to create your own branch\
-`git checkout [-b] branchname`\
+`git checkout [-b] branchname`
 
 or you can check out an existing branch\
 `git fetch`\
@@ -34,11 +34,25 @@ if you forget to do either and started making changes off main, you can switch t
 or\
 `git switch existing-branch-name`
 
+to merge changes from a different branch into your branch\
+`git merge other-branch-name`
+
+### after you make changes
+
+```
+git add .
+git commit -m 'something helpful for others'
+git push origin your-branch-name
+
+```
+
 ### if you mess up
-reset to the last commit, with your changes\
+reset to the most recent commit, with your changes\
 `git reset`\
-undo 1 commit\
-`git reset HEAD~1`
+undo 1 commit and keep track of the undo\
+`git revert HEAD~1`\
+nuclear option to erase everything and restart for the repo\
+`git reset --hard`
 
 ### creating a repository
 1. create a repo on github. select add a `README.md` and `.gitignore` files
